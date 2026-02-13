@@ -1,0 +1,100 @@
+/* Page background */
+body {
+  background-color: #eef1f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  background-color: #f8fafc;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* Search box */
+.search {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+/* Form container */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Add button */
+.form button {
+  padding: 10px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Book card */
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+/* Book text */
+.book h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #111827;
+}
+
+.book p {
+  margin: 3px 0 0;
+  color: #6b7280;
+}
+
+/* Remove button */
+.book button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book button:hover {
+  background-color: #dc2626;
+}
